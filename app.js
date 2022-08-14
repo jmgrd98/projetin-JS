@@ -5,9 +5,12 @@ const input = readline.question('Deseja buscar um livro? S/N')
 
 switch(input){
 
-    case 'S': console.log('Você buscou um filme');
+    case 'S':
+        console.log('Essas são as categorias disponíveis:');
+        for(let i = 0; i < db.length; i++){
+        console.log(db[i].categoria);
+    }
     break;
 
-    case 'N': console.log(db)
+    case 'N': console.log(db);
 }
-
