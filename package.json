@@ -1,0 +1,15 @@
+{
+  "name": "projetin-js",
+  "version": "1.0.0",
+  "description": "Projetin para o bootcamp Dev for Tech da Gama Academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
